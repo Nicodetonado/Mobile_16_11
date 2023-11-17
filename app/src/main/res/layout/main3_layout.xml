@@ -18,13 +18,11 @@
             android:id="@+id/nNaviView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
             android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
             app:labelVisibilityMode="labeled"
-
-            app:menu="@menu/menu_naviview"
-            />
-
+            app:menu="@menu/menu_naviview" />
 
 
 </RelativeLayout>

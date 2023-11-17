@@ -2,36 +2,34 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="Explorer"
         android:id="@+id/nExplore"
         android:icon="@drawable/baseline_location_on"
-        app:showAsAction="ifRoom"/>
+        android:title="Explorer"
+        app:showAsAction="ifRoom" />
 
     <item
-        android:title="Go"
         android:id="@+id/nGo"
         android:icon="@drawable/baseline_directions_bus"
+        android:title="Go"
         app:showAsAction="ifRoom" />
 
     <item
-        android:title="Saved"
         android:id="@+id/nSaved"
         android:icon="@drawable/baseline_bookmark"
+        android:title="Saved"
         app:showAsAction="ifRoom" />
 
     <item
-        android:title="Contribute"
         android:id="@+id/nContribute"
         android:icon="@drawable/baseline_control_point"
+        android:title="Contribute"
         app:showAsAction="ifRoom" />
 
     <item
-        android:title="Updates"
         android:id="@+id/nUpdates"
         android:icon="@drawable/baseline_notifications"
+        android:title="Updates"
         app:showAsAction="ifRoom" />
-
-
 
 
 </menu>
